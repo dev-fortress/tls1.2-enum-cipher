@@ -1,2 +1,2 @@
 # tls1.2-enum-cipher.nse
-This is new NSE script called tls1.2-enum-cipher.nse, designed to initiate a TLS 1.2-specific handshake with a target server and enumerate its supported ciphersuites and compressors.
+This is a new NMAP NSE script called tls1.2-enum-cipher.nse, designed to initiate a TLS 1.2-specific handshake with a target server and enumerate its supported ciphersuites and compressors. In contrast to the existing ssl-enum-ciphers, which covers multiple protocol versions (SSLv3 through TLSv1.3), this script focuses solely on TLSv1.2, offering deeper analysis and clearer output for this protocol.
